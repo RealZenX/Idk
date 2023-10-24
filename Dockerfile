@@ -6,8 +6,8 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /DQ-_BULLET
-WORKDIR /DQ-_BULLET
+RUN mkdir /idk
+WORKDIR /idk
 COPY . .
 
 CMD ["python3", "bot.py"]
