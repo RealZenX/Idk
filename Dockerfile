@@ -10,4 +10,4 @@ RUN mkdir /idk
 WORKDIR /idk
 COPY . .
 
-CMD ["python3", "bot.py"]
+CMD ["/bin/bash", "start.sh"]
